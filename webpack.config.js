@@ -40,7 +40,7 @@ if (MDXP_MODE === "onepage") {
 } else {
   cfg = {
     output: {
-      path: path.resolve(__dirname, "docs/web"),
+      path: path.resolve(__dirname, "docs"),
       filename: "main.js",
       publicPath: PUBLIC_PATH,
     },

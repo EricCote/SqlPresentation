@@ -5,10 +5,10 @@
   ],
   "version": "4.46.0",
   "hash": "d9fe6697c95a2efd1a00",
-  "time": 27147,
-  "builtAt": 1655657906802,
+  "time": 3343,
+  "builtAt": 1655658061831,
   "publicPath": "./",
-  "outputPath": "C:\\gat\\SqlPresentation\\docs\\web",
+  "outputPath": "C:\\gat\\SqlPresentation\\docs",
   "assetsByChunkName": {
     "main": "main.js"
   },
@@ -7582,18 +7582,18 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "C:\\gat\\SqlPresentation\\node_modules\\@theme-ui\\theme-provider\\dist\\index.esm.js",
-                  "module": "./node_modules/@theme-ui/theme-provider/dist/index.esm.js",
-                  "moduleName": "./node_modules/@theme-ui/theme-provider/dist/index.esm.js",
+                  "moduleIdentifier": "C:\\gat\\SqlPresentation\\node_modules\\@theme-ui\\core\\dist\\index.esm.js",
+                  "module": "./node_modules/@theme-ui/core/dist/index.esm.js",
+                  "moduleName": "./node_modules/@theme-ui/core/dist/index.esm.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "@theme-ui/css",
                   "loc": "2:0-36"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "C:\\gat\\SqlPresentation\\node_modules\\@theme-ui\\core\\dist\\index.esm.js",
-                  "module": "./node_modules/@theme-ui/core/dist/index.esm.js",
-                  "moduleName": "./node_modules/@theme-ui/core/dist/index.esm.js",
+                  "moduleIdentifier": "C:\\gat\\SqlPresentation\\node_modules\\@theme-ui\\theme-provider\\dist\\index.esm.js",
+                  "module": "./node_modules/@theme-ui/theme-provider/dist/index.esm.js",
+                  "moduleName": "./node_modules/@theme-ui/theme-provider/dist/index.esm.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "@theme-ui/css",
                   "loc": "2:0-36"
@@ -20123,18 +20123,18 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "C:\\gat\\SqlPresentation\\node_modules\\@theme-ui\\theme-provider\\dist\\index.esm.js",
-              "module": "./node_modules/@theme-ui/theme-provider/dist/index.esm.js",
-              "moduleName": "./node_modules/@theme-ui/theme-provider/dist/index.esm.js",
+              "moduleIdentifier": "C:\\gat\\SqlPresentation\\node_modules\\@theme-ui\\core\\dist\\index.esm.js",
+              "module": "./node_modules/@theme-ui/core/dist/index.esm.js",
+              "moduleName": "./node_modules/@theme-ui/core/dist/index.esm.js",
               "type": "harmony side effect evaluation",
               "userRequest": "@theme-ui/css",
               "loc": "2:0-36"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "C:\\gat\\SqlPresentation\\node_modules\\@theme-ui\\core\\dist\\index.esm.js",
-              "module": "./node_modules/@theme-ui/core/dist/index.esm.js",
-              "moduleName": "./node_modules/@theme-ui/core/dist/index.esm.js",
+              "moduleIdentifier": "C:\\gat\\SqlPresentation\\node_modules\\@theme-ui\\theme-provider\\dist\\index.esm.js",
+              "module": "./node_modules/@theme-ui/theme-provider/dist/index.esm.js",
+              "moduleName": "./node_modules/@theme-ui/theme-provider/dist/index.esm.js",
               "type": "harmony side effect evaluation",
               "userRequest": "@theme-ui/css",
               "loc": "2:0-36"
@@ -25388,9 +25388,9 @@
       "prefetched": false,
       "chunks": [
       ],
-      "issuer": "C:\\gat\\SqlPresentation\\node_modules\\@styled-system\\color\\dist\\index.esm.js",
-      "issuerId": 29,
-      "issuerName": "./node_modules/@styled-system/color/dist/index.esm.js",
+      "issuer": "C:\\gat\\SqlPresentation\\node_modules\\@styled-system\\space\\dist\\index.esm.js",
+      "issuerId": 38,
+      "issuerName": "./node_modules/@styled-system/space/dist/index.esm.js",
       "issuerPath": [
         {
           "id": null,
@@ -25408,9 +25408,9 @@
           "name": "./node_modules/@theme-ui/components/dist/index.esm.js"
         },
         {
-          "id": 29,
-          "identifier": "C:\\gat\\SqlPresentation\\node_modules\\@styled-system\\color\\dist\\index.esm.js",
-          "name": "./node_modules/@styled-system/color/dist/index.esm.js"
+          "id": 38,
+          "identifier": "C:\\gat\\SqlPresentation\\node_modules\\@styled-system\\space\\dist\\index.esm.js",
+          "name": "./node_modules/@styled-system/space/dist/index.esm.js"
         }
       ],
       "failed": false,
@@ -27533,7 +27533,7 @@
       "warnings": [
       ],
       "publicPath": "./",
-      "outputPath": "C:\\gat\\SqlPresentation\\docs\\web",
+      "outputPath": "C:\\gat\\SqlPresentation\\docs",
       "assetsByChunkName": {
         "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
       },
