@@ -49,7 +49,7 @@ A collection of information _organized_ in such a way that a computer program ca
   - Concurrency
   - Security
   - Audit
-- How to share that data whit other programs?
+- How to share that data with other programs?
 - Shouldn't we try to decouple data and programs?
 
 ---
@@ -143,23 +143,21 @@ _SQL Server, Oracle, MySQL Postgres_ are examples of RDBMS. (Relational DBMS)
 
 ---
 
-# Types of database systems:
+# Types of database systems
 
-<Block sx={{"&& p" : {textAlign: "left" , marginX: "10%"}}}>
 
-**OLTP**: Online Transaction Processing
-A database with transactions (changes). Optimized for read-writes.
+**OLTP** - Online Transaction Processing 
+: A database with transactions (changes). Optimized for read-writes.
 
-**OLAP**: online analytical processing
-A database for analysis. Optimized for reads.
+**OLAP** - Online analytical processing
+: A database for analysis. Optimized for reads.
 
-</Block>
 
 ---
 
 # SQL Server Hierarchy
 
-<Block sx={{"&& p" : {textAlign: "left" , marginX: "10%"}}}>
+
 
 **OS**: The OS can be physical or virtual
 
@@ -173,23 +171,23 @@ A database for analysis. Optimized for reads.
 
 **Table**: The most important object. Stores data in rows and columns.
 
-</Block>
+
 
 ---
 
 # Versions of SQL
 
-| product           | version | 10  |
+| Product           | Version | Compatibility  |
 | ----------------- | ------- | --- |
-| SQL Server 1.0    | 1989    | 10  |
-| SQL Server 4.2    | 1993    | 42  |
-| SQL Server 6.0    | 1995    | 60  |
-| SQL Server 6.5    | 1996    | 65  |
-| SQL Server 7.0    | 1998    | 70  |
+| SQL Server 1.0 (1989)   | 1.0    | 10  |
+| SQL Server 4.2 (1993)   | 4.2    | 42  |
+| SQL Server 6.0 (1995)    | 6.0    | 60  |
+| SQL Server 6.5 (1996)    | 6.5    | 65  |
+| SQL Server 7.0 (1998)   | 7.0    | 70  |
 | SQL Server 2000   | 8.0     | 80  |
 | SQL Server 2005   | 9.0     | 90  |
 | SQL Server 2008   | 10.0    | 100 |
-| SQL Server 2008R2 | 10.5    | 105 |
+| SQL Server 2008R2 | 10.5    | 100 |
 | SQL Server 2012   | 11      | 110 |
 | SQL Server 2014   | 12      | 120 |
 | SQL Server 2016   | 13      | 130 |
@@ -200,6 +198,21 @@ A database for analysis. Optimized for reads.
 ---
 
 # SQL Server Editions
+**Enterprise**	
+The premium offering, datacenter capabilities, unlimited virtualization, mission-critical workloads.
+
+**Standard ** 
+Delivers basic data management. For departments and small organizations. 
+
+**Web**	
+Low cost option for Web hosters and Web VAPs
+
+**Developer**	Free. Similar to Enterprise edition, but licensed for testing and dev, not as a production server. 
+**Express** 	Free.  Entry-level database. For desktop apps and small server data apps. It is the best choice for independent software vendors, developers, and hobbyists building client applications. 
+**Express LocalDB** Free.  Lightweight version of Express. Runs in user mode (like an app).  Installs quickly with zero-configuration. Has a short list of prerequisites.
+
+SQL Server Express LocalDB is a lightweight version of Express that has all of its programmability features, runs in user mode and has a fast, zero-configuration installation and a short list of prerequisites.
+
 
 ---
 
@@ -269,7 +282,7 @@ A database for analysis. Optimized for reads.
 
 | Server feature                          | Description                                                                                                                                                                                                                                                                                                                                                                                              |
 | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SQL Server Database Engine              |  SQL Server Database Engine includes the Database Engine, the core service for storing, processing, and securing data, replication, full-text search, tools for managing relational and XML data, in database analytics integration, and PolyBase integration for access to Hadoop and other heterogeneous data sources, and Machine Learning Services to run Python and R scripts with relational data. |
+| SQL Server Database Engine              | SQL Server Database Engine includes the Database Engine, the core service for storing, processing, and securing data, replication, full-text search, tools for managing relational and XML data, in database analytics integration, and PolyBase integration for access to Hadoop and other heterogeneous data sources, and Machine Learning Services to run Python and R scripts with relational data. |
 | Analysis Services                       | Analysis Services includes the tools for creating and managing online analytical processing (OLAP) and data mining applications.                                                                                                                                                                                                                                                                         |
 | Reporting Services                      | Reporting Services includes server and client components for creating, managing, and deploying tabular, matrix, graphical, and free-form reports. Reporting Services is also an extensible platform that you can use to develop report applications.                                                                                                                                                     |
 | Integration Services                    | Integration Services is a set of graphical tools and programmable objects for moving, copying, and transforming data. It also includes the Data Quality Services (DQS) component for Integration Services.                                                                                                                                                                                               |
